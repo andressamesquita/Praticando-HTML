@@ -1,7 +1,3 @@
-function carregar(){
-    $('#cabecalho').load("header.html #cabecalho")
-}
-
-window.onload = function(){
-    carregar()
-}
+$(document).ready(function(){
+    $("#cabecalho").load("/html/header.html")
+})
