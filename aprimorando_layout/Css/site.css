@@ -1,0 +1,60 @@
+body{
+	font-family: "Crimson Text", "Times New Roman", serif;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main h1{
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	margin: 20px 0;	
+}
+
+strong {
+	font-weight: bold;
+}
+
+main div{
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+nav{
+	background-color: #0000FF;
+	color: #F2FFFC;
+	padding: 20px;
+}
+
+nav a {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+ul li a {
+    color: inherit;
+    font-family: "Open Sans Condensed";
+}
+
+aside h1 img {
+	width: 50px;
+}
