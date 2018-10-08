@@ -1,3 +1,13 @@
+header #logo{
+	height: 100px;
+	margin-left: 20px;
+}
+header h6{
+	float:right;
+	margin-top: 80px;
+	margin-right: 20px;
+}
+
 body{
 	font-family: "Crimson Text", "Times New Roman", serif;
 	font-size: 120%;
@@ -34,11 +44,6 @@ aside h1 {
 	margin-bottom: 25px;
 }
 
-nav{
-	background-color: #0000FF;
-	color: #F2FFFC;
-	padding: 20px;
-}
 
 nav a {
 	color: #0000FF;
