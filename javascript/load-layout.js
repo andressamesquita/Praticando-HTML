@@ -1,6 +1,7 @@
 $.get('/html/header.html',function(data) {
     var header = $(data).filter('.header');
     $('body').prepend(header);
+    $('#show-button').hide();
 });
 
 $.get('/html/vertical-menu.html',function(data) {
@@ -11,12 +12,12 @@ $.get('/html/vertical-menu.html',function(data) {
 function resize(){
     var tamanho = $('body').height();
     var tamanho2 = $('#header').height();
-    $('#conteudo').css('height', tamanho - tamanho2)
+    $('#conteudo').css('height', tamanho - tamanho2);
 }
 
 window.onresize = function(){
-    resize()
+    resize();
 }
 $(document).ready(function(){
-    resize()
+    resize();
 });
