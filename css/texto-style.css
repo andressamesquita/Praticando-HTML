@@ -1,6 +1,7 @@
 .texto{
     width: 100%;
-    margin-left: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
     overflow-y: auto;
     font-family: "Crimson Text", "Times New Roman", serif;
     font-size: 100%;
