@@ -1,0 +1,22 @@
+.texto{
+    width: 100%;
+    margin-left: 14px;
+    overflow-y: auto;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.texto #titulo{
+    text-align: center;
+}
+
+.texto ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.texto li{
+    padding: 0px;
+    list-style: none;
+}
