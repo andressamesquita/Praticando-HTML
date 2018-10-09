@@ -9,13 +9,13 @@
 }
 
 .texto ul{
-    padding: 0px;
+    padding-left: 15px;
     list-style: none;
 }
 
 .texto ul li{
     padding: 0px;
-    list-style: none;
+    list-style: circle;
 }
 
 .texto ul li p{
