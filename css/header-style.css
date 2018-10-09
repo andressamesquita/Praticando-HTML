@@ -1,0 +1,37 @@
+.header #menu ul {
+    margin: 0px;
+    padding:5px;
+    background-color:#EDEDED;
+    list-style:none;
+    text-align: center;
+}
+
+.header #menu ul li { 
+    display: inline;
+}
+
+.header #menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:#FFFFFF;
+    color: #777777;
+    text-decoration: none;
+    border-bottom:3px solid #FFFFFF;
+}
+
+.header #menu ul li a:hover {
+    color: rgb(0, 0, 0);
+    border-bottom:3px solid #F16529;
+}
+
+.header #logo img {
+    max-width:125px;
+    max-height:125px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.header #detalhes-site{
+    display: flex;
+}
