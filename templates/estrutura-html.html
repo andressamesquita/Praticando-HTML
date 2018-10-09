@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>HTML - Estrutura</title>
+    <script type="text/javascript" src="/javascript/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/javascript/load-layout.js"></script>
+    <link rel="stylesheet"type="text/css" href="/css/header-style.css"/>
+    <link rel="stylesheet"type="text/css" href="/css/vertical-menu-style.css"/>
+    <link rel="stylesheet"type="text/css" href="/css/page-style.css"/>
+    <link rel="stylesheet"type="text/css" href="/css/texto-style.css"/>
+</head>
+
+<body>
+    <div id="conteudo">
+        <main class="texto">
+            <h1>HTML Exemplos Básicos</h1>
+            <hr>
+            
+            <h2>Documento</h2>
+            <p>Todos os documentos HTML devem começar com uma declaração do tipo de documento: <code class="html-tag-exemplo">&lt;!DOCTYPE html&gt;</code>.</p>
+            <p>O documento HTML em si começa com <code class="html-tag-exemplo">&lt;html&gt;</code> e termina com <code class="html-tag-exemplo">&lt;/html&gt;</code>.</p>
+            <p>A parte visível do documento HTML é entre <code class="html-tag-exemplo">&lt;body&gt;</code> e <code class="html-tag-exemplo">&lt;/body&gt;</code>. </p>
+            <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>
+                        &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;body&gt;<br><br>&lt;h1&gt;My First Heading&lt;/h1&gt;<br>&lt;p&gt;My first paragraph.&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;
+                    </code>
+                </div>
+            </div>
+            <hr>
+
+            <h2>Títulos</h2>
+            <p>Títulos em HTML são definidos com tags de <code class="html-tag-exemplo">&lt;h1&gt;</code> a <code class="html-tag-exemplo">&lt;h6&gt;</code>.</p>
+            <p><code class="html-tag-exemplo">&lt;h1&gt;</code> define o título mais importante. <code class="html-tag-exemplo">&lt;h6&gt;</code> define o título menos importante:&nbsp;</p>
+            <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>
+                    &lt;h1&gt;This is heading 1&lt;/h1&gt;<br>
+                    &lt;h2&gt;This is heading 2&lt;/h2&gt;<br>
+                    &lt;h3&gt;This is heading 3&lt;/h3&gt;
+                    </code>
+                </div>
+            </div>
+            <hr>
+            
+            <h2>Parágrafos</h2>
+            <p>Parágrafos HTML são definidas com a tag <code class="html-tag-exemplo">&lt;p&gt;</code>:</p>
+            <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+                    &lt;p&gt;This is another paragraph.&lt;/p&gt;
+                    </code>
+                </div>
+            </div>
+            <hr>
+
+            <h2>Links</h2>
+            <p>Links HTML são definidos com a tag <code class="html-tag-exemplo">&lt;a&gt;</code>:</p>
+            <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>
+                    &lt;a href=&quot;https://www.w3schools.com&quot;&gt;This is a link&lt;/a&gt;
+                    </code>
+                </div>
+            </div>
+            <p>O destino do link é especificado no atributo <code class="html-tag-exemplo">href</code>.&nbsp;</p>
+            <p>Os atributos são usados ​​para fornecer informações adicionais sobre os elementos HTML.</p>
+            <hr>
+
+            <h2>Imagens</h2>
+            <p>Imagens em HTML são definidas com a tag <code class="html-tag-exemplo">&lt;img&gt;</code>.</p>
+            <p>O arquivo de origem (<code class="html-tag-exemplo">src</code>), texto alternativo (<code class="html-tag-exemplo">alt</code>), 
+            largura (<code class="html-tag-exemplo">width</code>), e altura (<code class="html-tag-exemplo">height</code>) são fornecidos como atributos:</p>
+                <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>
+                    &lt;img src=&quot;imagem.jpg&quot; alt=&quot;Imagem&quot; width=&quot;104&quot; height=&quot;142&quot;&gt;
+                    </code>
+                </div>
+            </div>
+            <hr>
+
+            <h2>Botões</h2>
+            <p>Botões em HTML são definidos com a tag <code>&lt;button&gt;</code>:</p>
+            <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>&lt;button&gt;Click me&lt;/button&gt;</code>
+                </div>
+            </div>
+            <hr>
+
+            <h2>Listas</h2>
+            <p>Listas em HTML são definidas com a tag <code class="html-tag-exemplo">&lt;ul&gt;</code> (lista não ordenada) ou <code class="html-tag-exemplo">&lt;ol&gt;</code> (lista ordenada), seguido por tags <code class="html-tag-exemplo">&lt;li&gt;</code> (os itens da lista):</p>
+            <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>
+                        &lt;ul&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>
+                        &lt;/ul&gt;
+                    </code>
+                </div>
+            </div>
+            <hr>
+            <h2>Tabelas</h2>
+            <p>Tabelas em HTML são definidas com a tag <code class="html-tag-exemplo">&lt;table&gt;</code>. Cada linha da tabela é definida com a tag <code class="html-tag-exemplo">&lt;tr&gt;</code>. Um cabeçalho de tabela é definido com a tag <code class="html-tag-exemplo">&lt;th&gt;</code>. Por padrão, os títulos das tabelas estão em negrito e centralizados. Um campo / célula da tabela é definido com a tag <code class="html-tag-exemplo">&lt;td&gt;</code>.</p>
+            <div>
+                <h3>Exemplo</h3>
+                <div class="codigo-html">
+                    <code>
+                        &lt;table&gt;&nbsp;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp; &lt;th&gt;head&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp; &lt;th&gt;head&lt;/th&gt;&nbsp;&nbsp;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;
+                        &lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;data&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp; &lt;td&gt;data&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>
+                        &lt;/table&gt;
+                    </code>
+                </div>
+            </div>
+            <hr>       
+        </main>
+    </div>
+</body>
+
+</html>
