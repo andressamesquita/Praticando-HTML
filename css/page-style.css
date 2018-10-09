@@ -1,0 +1,14 @@
+html{
+    margin: 0;
+    height: 99%;
+    margin-top: 5px;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+}
+#conteudo{
+    display: flex;
+    margin-top: 2px;
+}
